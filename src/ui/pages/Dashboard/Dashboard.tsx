@@ -1,6 +1,11 @@
 import React from 'react'
 import Button from '@mui/material/Button'
+import AuthedAppLayout from 'ui/layout/AuthedAppLayout'
 
 export default function DashboardPage() {
-  return <Button variant="contained">Hello World</Button>
+  return (
+    <AuthedAppLayout>
+      <Button variant="contained">Hello World</Button>
+    </AuthedAppLayout>
+  )
 }
