@@ -1,0 +1,16 @@
+export const appColors = {
+  black: '#000000',
+  blackRock: '#2E2E3A',
+  darkGrey: '#413C3C',
+  grizzleGray: '#626262',
+  lightGray: '#E6E6E6',
+  white: '#FFFFFF',
+  vividGreen: '#00a551',
+  vividCerulean: '#00adee',
+  primary: '#E80100',
+  secondary: '#1F1F1F',
+  smokeGray: '#E0E0E7',
+  darkGray: '#898F8F',
+} as const
+
+export type Colors = typeof appColors
